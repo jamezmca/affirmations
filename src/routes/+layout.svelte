@@ -278,7 +278,7 @@
                                                 src={`/backgrounds/${bg}.png`}
                                                 alt="bg"
                                                 loading="lazy"
-                                                class={" object-cover hidden w-full object-cover opacity-0 duration-200 relative object-center"}
+                                                class={" object-cover w-full object-cover opacity-0 duration-200 relative object-center"}
                                                 on:load={(self) => {
                                                     self.target.style.opacity = 1;
                                                 }}
