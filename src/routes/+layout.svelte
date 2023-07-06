@@ -81,6 +81,8 @@
                 items: [...curr.items, { name: author, description: text }],
             };
         });
+        text = ''
+        author = ''
         showModal = false;
     }
 
